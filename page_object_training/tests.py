@@ -39,4 +39,5 @@ def test_check_password_placeholder():
     password = driver.find_element(By.ID, "password")
     assert password.get_attribute("placeholder") == 'Пароль'
 
-    quit_driver(driver) 
+    quit_driver(driver)
+

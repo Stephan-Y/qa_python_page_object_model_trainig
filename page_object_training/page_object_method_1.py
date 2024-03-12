@@ -25,7 +25,8 @@ class HomePageMesto:
 
     # метод вводит ссылку на изображение
     def set_link_to_picture_field(self):
-        self.driver.find_element(*self.link_to_picture_field).send_keys("Ссылка на новое изображение")
+        self.driver.find_element(*self.link_to_picture_field
+                                 ).send_keys("Ссылка на новое изображение")
 
     # метод кликает на кнопку «Сохранить»
     def click_save_button(self):
